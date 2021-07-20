@@ -1,6 +1,8 @@
 import React from "react";
 import { Button, Container, Row, Col, Form } from "react-bootstrap";
 import PropTypes from "prop-types";
+import EscudoArgentina from '../../assets/img/escudo_arg.png';
+import './PasswordReset.css';
 
 export default function PasswordReset({
   handleOnChange,
@@ -12,6 +14,10 @@ export default function PasswordReset({
     <Container>
       <Row>
         <Col>
+        <div className="escudoArgentina">
+          <img className="escudoArgentina-img" src={EscudoArgentina} alt="jefatura gabinete logo"></img>
+        </div>
+       
           <h1 className="text-info text-center">Recuperar Contraseña</h1>
           <hr></hr>
           <Form autoComplete="off" onSubmit={handleOnResetSubmit}>

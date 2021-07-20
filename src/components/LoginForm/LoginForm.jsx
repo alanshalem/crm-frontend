@@ -1,7 +1,8 @@
 import React from "react";
 import { Button, Container, Row, Col, Form } from "react-bootstrap";
 import PropTypes from "prop-types";
-
+import EscudoArgentina from '../../assets/img/escudo_arg.png';
+import './LoginForm.css'
 export default function LoginForm({
   handleOnChange,
   handleOnSubmit,
@@ -13,6 +14,9 @@ export default function LoginForm({
     <Container>
       <Row>
         <Col>
+          <div className="escudoArgentina">
+            <img className="escudoArgentina-img" src={EscudoArgentina} alt="jefatura gabinete logo"></img>
+          </div>
           <h1 className="text-info text-center">Login Agente</h1>
           <hr></hr>
           <Form autoComplete="off" onSubmit={handleOnSubmit}>
@@ -49,7 +53,7 @@ export default function LoginForm({
       <hr></hr>
       <Row>
         <Col>
-          <a href="#!" onClick={()=>formSwitcher("reset")}>OLVIDE MI CONTRASEÑA</a>
+          <a href="#!" onClick={() => formSwitcher("reset")}>OLVIDE MI CONTRASEÑA</a>
         </Col>
       </Row>
     </Container>
