@@ -5,8 +5,9 @@ import './Header.css'
 export default function Header() {
     return (
         <Navbar collapseOnSelect bg="info" variant="dark" expand="md">
-            <Navbar.Brand>
+            <Navbar.Brand class="img_title">
                 <img className="escudoArgentina-img" src={EscudoArgentina} alt="escudo argentina" width="50px"></img>
+                Ticketera Jefatura
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">

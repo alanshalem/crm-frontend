@@ -1,3 +1,12 @@
+.img_title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
 .escudoArgentina-img {
   padding-left: 1rem;
 }
