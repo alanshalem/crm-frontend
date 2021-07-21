@@ -4,7 +4,7 @@ import EscudoArgentina from '../../assets/img/escudo_arg.png';
 import './Header.css'
 export default function Header() {
     return (
-        <Navbar collapseOnSelect bg="info" variant="dark" expand="md">
+        <Navbar className="mb-2" collapseOnSelect bg="info" variant="dark" expand="md">
             <Navbar.Brand class="img_title">
                 <img className="escudoArgentina-img" src={EscudoArgentina} alt="escudo argentina" width="50px"></img>
                 Ticketera Jefatura

@@ -1,6 +1,7 @@
 import "./App.css";
 import DefaultLayout from "./layout/DefaultLayout";
-import Dashboard from "./views/Dashboard/Dashboard";
+// import Dashboard from "./views/Dashboard/Dashboard";
+import AddTicket from "./views/AddTicket/AddTicket";
 
 // import { Entry } from "./views/Entry/Entry";
 
@@ -10,7 +11,8 @@ function App() {
       {/* <Entry></Entry> */}
       <DefaultLayout>
         {/* SEND PAGE COMPONENT */}
-        <Dashboard></Dashboard>
+        {/* <Dashboard /> */}
+        <AddTicket />
       </DefaultLayout>
     </div>
   );

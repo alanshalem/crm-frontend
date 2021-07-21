@@ -37,6 +37,7 @@ export const Entry = () => {
                 icon: 'error',
                 title: 'ERROR...',
                 text: 'Debes completar todos los campos!',
+                timer: 2000,
             })
             //CALL API TO SUBMIT THE FORM
         }
