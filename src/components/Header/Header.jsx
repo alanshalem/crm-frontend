@@ -2,6 +2,7 @@ import React from 'react'
 import { Navbar, Nav } from 'react-bootstrap'
 import EscudoArgentina from '../../assets/img/escudo_arg.png';
 import './Header.css'
+
 export default function Header() {
     return (
         <Navbar className="mb-2" collapseOnSelect bg="info" variant="dark" expand="md">

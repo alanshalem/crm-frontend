@@ -5,7 +5,7 @@ import './Footer.css'
 export default function Footer() {
     return (
         <div className="text-center copy-right">
-           <img className="footer-logo" src={ArgentinaUnida} alt="logo argentina unida" />
+            <img className="footer-logo" src={ArgentinaUnida} alt="logo argentina unida" />
         </div>
     )
 }
