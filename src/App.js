@@ -1,9 +1,9 @@
 import "./App.css";
+import TicketList from "./views/TicketList/TicketList";
 import DefaultLayout from "./layout/DefaultLayout";
-// import Dashboard from "./views/Dashboard/Dashboard";
+import { Entry } from "./views/Entry/Entry";
+import Dashboard from "./views/Dashboard/Dashboard";
 import AddTicket from "./views/AddTicket/AddTicket";
-
-// import { Entry } from "./views/Entry/Entry";
 
 function App() {
   return (
@@ -12,7 +12,8 @@ function App() {
       <DefaultLayout>
         {/* SEND PAGE COMPONENT */}
         {/* <Dashboard /> */}
-        <AddTicket />
+        {/* <AddTicket /> */}
+        <TicketList />
       </DefaultLayout>
     </div>
   );
