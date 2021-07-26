@@ -1,9 +1,9 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./App.css";
 import { PrivateRoute } from "./components/PrivateRoute/PrivateRoute";
 import TicketList from "./views/TicketList/TicketList";
-import DefaultLayout from "./layout/DefaultLayout";
+// import DefaultLayout from "./layout/DefaultLayout";
 import { Entry } from "./views/Entry/Entry";
 import Dashboard from "./views/Dashboard/Dashboard";
 import AddTicket from "./views/AddTicket/AddTicket";
